@@ -1,3 +1,4 @@
 import PlayerAction from '@civ-clone/core-player/PlayerAction';
-export declare class InactiveUnit extends PlayerAction {}
+import Unit from '@civ-clone/core-unit/Unit';
+export declare class InactiveUnit extends PlayerAction<Unit> {}
 export default InactiveUnit;
